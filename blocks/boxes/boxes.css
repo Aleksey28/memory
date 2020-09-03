@@ -4,9 +4,10 @@
   width: 50vw;
   height: 50vh;
   margin: 0;
+  padding: 0;
 
   list-style-type: none;
 
-  grid-template: 1fr 1fr/1fr 1fr;
   gap: 5px;
+  background-color: whitesmoke;
 }
