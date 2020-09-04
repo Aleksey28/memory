@@ -1,4 +1,13 @@
+@import url('../vendor/normalize.css');
+@import url('../fonts/Inter/Web/inter.css');
 @import url('../blocks/page/page.css');
+@import url('../blocks/game/game.css');
 @import url('../blocks/boxes/boxes.css');
 @import url('../blocks/box/box.css');
-@import url('../blocks/settings/settings.css');
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/form/__input/_type/form__input_type_error.css');
+@import url(../blocks/form/__error/form__error.css);
+@import url(../blocks/form/__error/_visible/form__error_visible.css);
+@import url('../blocks/form/__btn/form__btn.css');
+@import url('../blocks/form/__btn/_disabled/form__btn_disabled.css');

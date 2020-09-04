@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc89855b-2a73-4149-8572-fb50c54fba65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blocks/form/form.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/boxes/boxes.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/boxes/boxes.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/page/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/settings/settings.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
@@ -35,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -67,7 +70,8 @@
       <updated>1598982428399</updated>
       <workItem from="1598982430070" duration="181000" />
       <workItem from="1598986150055" duration="3292000" />
-      <workItem from="1599154388436" duration="9203000" />
+      <workItem from="1599154388436" duration="9909000" />
+      <workItem from="1599244926888" duration="6469000" />
     </task>
     <servers />
   </component>

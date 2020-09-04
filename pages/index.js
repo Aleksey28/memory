@@ -1,21 +1,3 @@
-const boxColors = [
-  '#ffc0cb',
-  '#f0e68c',
-  '#1e90ff',
-  '#0000ff',
-  '#00fa9a',
-  '#ffff00',
-  '#00ff00',
-  '#ff00ff',
-  '#da70d6',
-  '#ffa500',
-  '#ff0000',
-  '#48d1cc',
-  '#000080',
-  '#006400',
-  '#a0522d',
-  '#2f4f4f'];
-
 const couples = {
   arrCouples: [],
   arrElementsCouple: []
@@ -23,9 +5,9 @@ const couples = {
 
 const boxes = document.querySelector('.boxes');
 const boxTemplate = document.querySelector('#box-template').content;
-const settings = document.querySelector('.settings');
-const settingsWidth = settings.querySelector('.settings__width');
-const settingsHeight = settings.querySelector('.settings__height');
+const settings = document.querySelector('.form_type_settings');
+const settingsWidth = settings.querySelector('.settings__input_type_width');
+const settingsHeight = settings.querySelector('.settings__input_type_height');
 
 const getRandomIntArray = (from, to) => {
   const orderedArr = [];
@@ -47,6 +29,7 @@ const generateCouples = (widthBox, heightBox) => {
   const countOfBoxes = widthBox * heightBox;
   const countOfCouples = countOfBoxes / 2;
   const arrCouples = [];
+  const boxColors = getSetRandomColor(countOfCouples);
 
   const randomIntArray = getRandomIntArray(0, countOfBoxes);
 
@@ -59,6 +42,23 @@ const generateCouples = (widthBox, heightBox) => {
   }
 
   return arrCouples;
+}
+
+const getSetRandomColor = (count) => {
+  const newSetRandomColor = [];
+  for(let i = 0; i < count; i++) {
+    newSetRandomColor.push(getRandomColor());
+  }
+  return newSetRandomColor;
+}
+
+const getRandomColor = () => {
+  const letters = '0123456789ABCDEF';
+  let color = '#';
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
 }
 
 const getElementsCouple = (arrCouples) => {
@@ -77,7 +77,6 @@ const openBox = (evt) => {
   if (Array.from(boxes.querySelectorAll('.box_opened')).length === 2) {
     return
   }
-  ;
 
   evt.target.style.backgroundColor = couples.arrCouples[couples.arrElementsCouple[evt.target.style.order]].color;
   if (!evt.target.classList.contains('box_fix')) {
@@ -129,6 +128,11 @@ const clearBoxes = () => {
 
 const createBoxes = (evt) => {
   evt.preventDefault();
+
+  if ((settingsHeight.value * settingsWidth.value)%2 !==0) {
+    alert('Произведение чисел должно быть четным!');
+    return;
+  }
 
   clearBoxes();
 

@@ -1,0 +1,9 @@
+.form {
+  background-color: #ffda86;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

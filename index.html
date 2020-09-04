@@ -10,14 +10,18 @@
 </head>
 <body>
 <div class="page">
-  <form class="settings">
-    <input type="number" class="settings__width" required>
-    <input type="number" class="settings__height" required>
-    <button class="settings__submit" type="submit">Запустить</button>
-  </form>
-  <ul class="boxes">
+  <section class="game">
+    <form class="form form_type_settings">
+      <input type="number" class="form__input settings__input_type_width" id="input-width" required>
+      <input type="number" class="form__input settings__input_type_height" id="input-height" required>
+      <span class="form__error" id="input-width-error"></span>
+      <span class="form__error" id="input-height-error"></span>
+      <button class="form__btn" type="submit">Запустить</button>
+    </form>
+    <ul class="boxes">
 
-  </ul>
+    </ul>
+  </section>
 </div>
 <template id="box-template">
   <li class="box">
@@ -25,5 +29,6 @@
   </li>
 </template>
 <script src="./pages/index.js"></script>
+<script src="./pages/validate.js"></script>
 </body>
 </html>
