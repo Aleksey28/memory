@@ -8,10 +8,5 @@
   font-style: normal;
   line-height: 15px;
 
-  flex: 1 1 47%;
-  margin-right: 2%;
-}
-
-.form__error:last-of-type {
-  margin-right: 0;
+  width: 100%;
 }

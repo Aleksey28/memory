@@ -1,10 +1,14 @@
 .form__input {
-  flex: 1 1 47%;
-  margin-right: 2%;
+  width: 100%;
   line-height: 30px;
+  padding: 0;
+  font-size: 20px;
 }
 
-.form__input:last-of-type {
-  margin-right: 0;
+@media screen and (max-width: 1280px){
+  .form__input {
+    line-height: calc((100vw - 320px) / (1280 - 320) * (30 - 20) + 20px);
+    font-size: calc((100vw - 320px) / (1280 - 320) * (20 - 15) + 15px);
+  }
 }
 

@@ -20,14 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc89855b-2a73-4149-8572-fb50c54fba65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blocks/form/form.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/boxes/boxes.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/boxes/boxes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__btn/form__btn.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__btn/form__btn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__error/_visible/form__error_visible.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__error/_visible/form__error_visible.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__error/form__error.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__error/form__error.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__input/_type/form__input_type_error.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__input/_type/form__input_type_error.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__input/form__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__input/form__input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/game/game.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/game/game.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/page/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/settings/settings.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/validate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +76,7 @@
       <workItem from="1598986150055" duration="3292000" />
       <workItem from="1599154388436" duration="9909000" />
       <workItem from="1599244926888" duration="6469000" />
+      <workItem from="1599331370471" duration="6525000" />
     </task>
     <servers />
   </component>

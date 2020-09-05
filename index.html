@@ -11,11 +11,14 @@
 <body>
 <div class="page">
   <section class="game">
-    <form class="form form_type_settings">
-      <input type="number" class="form__input settings__input_type_width" id="input-width" required>
-      <input type="number" class="form__input settings__input_type_height" id="input-height" required>
-      <span class="form__error" id="input-width-error"></span>
-      <span class="form__error" id="input-height-error"></span>
+    <form class="form form_type_settings" id="settings">
+      <input type="number" class="form__input settings__input_type_width" id="input-width" placeholder="Ширина"
+             required>
+      <span class="form__error" id="input-width-error">Ошибка</span>
+      <input type="number" class="form__input settings__input_type_height" id="input-height" placeholder="Высота"
+             required>
+      <span class="form__error" id="input-height-error">Ошибка</span>
+      <span class="form__error" id="settings-error">Ошибка</span>
       <button class="form__btn" type="submit">Запустить</button>
     </form>
     <ul class="boxes">
